@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap');
+
+*,
+*::before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --para-color: #C1A7E8;
+}
+
+/* --------------------------------Navigation section------------------------------- */
+
+nav {
+    background-color: #7133CC;
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav>img {
+    width: 9vw;
+    height: 7vh;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;
+    margin-top: 1%;
+    color: #D8DADD;
+    white-space: nowrap;
+    font-size: 1.1em;
+}
+
+.list li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: 0.5px solid #948d8d;
+    width: 163px;
+    height: 43px;
+    font-size: 1em;
+    background: #2BA2E8;
+    color: white;
+    margin-top: 2.1%;
+    margin-right: 5%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.fa-share {
+    color: black;
+    font-size: 50px;
+}
+
+
+/* ------------------------------------Main section------------------------------- */
+
+
+.main-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #7133CC;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20%;
+}
+
+.main-heading {
+    font-size: 3.6em;
+    margin-top: 16%;
+    margin-left: 10%;
+    margin-right: 30%;
+    color: white;
+}
+
+.main-para {
+    color: var(--para-color);
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 30%;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.saas-image {
+    width: 39vw;
+    height: 82vh;
+    margin-left: 10%;
+    margin-top: -9%;
+}
+
+/* -------------------------------Service section-------------------------------*/
+
+.service-section {
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20%;
+    margin-top: 5%;
+}
+
+.service-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-contents h1 {
+    font-size: 2.3em;
+    margin: 0em 7em 1em -2em;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1em 0em;
+}
+
+
+.service-content svg {
+    
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -72px;
+    top: 29px;
+}
+.bg1{
+    fill: rgb(30, 177, 234);
+}
+.bg2{
+    fill: #008000;
+}
+.bg3{
+    fill: orangered;
+}
+.service-content h2 {
+    margin: 0% 10% 1% -6%;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.service-content p {
+    margin: 1% 54% 2% -5%;
+    color: rgb(68 64 64);
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+
+/* ------------------------------Featues section------------------------------- */
+
+.features-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-section h1 {
+    font-size: 2.5em;
+    margin: 2% 0%;
+    padding-right: 34%;
+    padding-left: 34%;
+    text-align: center;
+}
+
+.feature {
+    padding: 3% 3%;
+    margin: 2% 2%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px black;
+    text-align: center;
+    border: none;
+    transition: transform 0.5s ease;
+}
+.feature:hover{
+    transform: scale(1.1);
+}
+.feature p {
+    color: rgb(68 64 64);
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+
+.feature img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20%;
+}
+
+.image-box {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: -6% 25% 10%;
+}
+
+.box1 {
+    background-color: rgb(255, 217, 217);
+}
+
+.box2 {
+    background-color: rgb(241, 242, 181);
+}
+
+.box3 {
+    background-color: rgb(190, 248, 173);
+}
+
+.box4 {
+    background-color: rgb(198, 254, 244);
+}
